@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, fft3cSP2Activity!</string>
+    <string name="app_name">FFT3C</string>
+    <string name="linpn">FFT3C</string>
+    <string name="start2">Run-2</string>
+</resources>

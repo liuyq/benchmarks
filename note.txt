@@ -1,0 +1,7 @@
+Details, example results and benchmark apk files can be obtained via:
+
+http://www.roylongbottom.org.uk/android%20native%20ARM-Intel%20benchmarks.htm
+
+and
+
+http://www.roylongbottom.org.uk/android%2064%20bit%20benchmarks.htm

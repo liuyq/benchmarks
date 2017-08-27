@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:scrollbarDefaultDelayBeforeFade="9999999"
+ >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D2FFFF"
+    android:orientation="vertical" >
+
+         <TextView 
+         android:id="@+id/displayDetails" 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+         android:text="@string/memtest"
+         android:typeface="monospace"
+         android:textStyle="bold" ></TextView>
+
+ 
+     <LinearLayout 
+         android:id="@+id/linearLayout1" 
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" >  
+
+         <Button 
+             android:id="@+id/startButton" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="Run" ></Button>  
+         
+           <Button 
+             android:id="@+id/mailButton" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"              
+             android:text="Save" ></Button> 
+
+         <Button 
+             android:id="@+id/restartButton" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="Restart" ></Button>  
+           
+     </LinearLayout>  
+     
+</LinearLayout>
+</HorizontalScrollView>

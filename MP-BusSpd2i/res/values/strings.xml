@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BusSpdActivity2i</string>
+    <string name="app_name">MP-BusSpd2i</string>
+    <string name="memtest">MP-BusSpd2i</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, JavaDrawActivity!</string>
+    <string name="app_name">JavaDraw</string>
+    <string name="ogl">Android Drawing Benchmark </string>
+   <string name="start2">Run-2</string>
+
+</resources>

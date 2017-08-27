@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/Scroller">
+    
+ 
+ <LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#D2FFFF">
+     
+          <TextView 
+         android:id="@+id/OutputText" 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+         android:text="@string/mpfpustresst"
+
+         android:typeface="monospace"
+         android:textStyle="bold" ></TextView>
+   
+     <LinearLayout 
+         android:id="@+id/linearLayout1" 
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" >  
+
+
+        <Button 
+             android:id="@+id/RunButton" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="RunB." 
+             android:onClick="onRunButtonClick"></Button>  
+ 
+          <Button 
+             android:id="@+id/StressButton" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="RunS." 
+             android:onClick="onStressButtonClick"></Button>  
+
+          <Button 
+             android:id="@+id/SetupButton" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="SetS." 
+             android:onClick="onSetupButtonClick"></Button>  
+
+          <Button 
+             android:id="@+id/infoButton" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"              
+             android:text="Info" 
+             android:onClick="onInfoButtonClick"></Button> 
+         
+           <Button 
+             android:id="@+id/mailButton" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"              
+             android:text="Save." 
+             android:onClick="onSaveButtonClick"></Button> 
+                      
+     </LinearLayout>  
+ </LinearLayout> 
+ </ScrollView>

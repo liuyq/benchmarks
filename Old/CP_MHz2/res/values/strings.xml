@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="hello">Hello World, CP_MHz2!</string>
+    <string name="app_name">CP_MHz2</string>
+    <string name="start">Run-1        </string>
+    <string name="whets">CP MHz2 </string>
+    <string name="start2">Run-2</string>
+</resources>

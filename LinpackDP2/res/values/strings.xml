@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, linpackDP2Activity!</string>
+    <string name="app_name">LinpackDP2</string>
+    <string name="linpn">LinpackDP2</string>
+    <string name="start2">Run-2</string>
+</resources>
